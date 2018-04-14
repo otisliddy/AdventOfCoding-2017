@@ -41,6 +41,7 @@
         <module>Day2_CorruptionChecksum</module>
         <module>Day3_SpiralMemory</module>
         <module>Day4_HighEntropyPassphrases</module>
+        <module>Day5_TwistyTrampolines</module>
     </modules>
 
 </project>

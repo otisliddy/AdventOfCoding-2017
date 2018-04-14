@@ -18,7 +18,7 @@ public class PassphraseValidator {
      */
     public long getNumberOfValidPassphrases(String fileName) {
         final ClassLoader classLoader = getClass().getClassLoader();
-        File file = new File(classLoader.getResource(fileName).getFile());
+        final File file = new File(classLoader.getResource(fileName).getFile());
 
         try {
             var bufferedReader = new BufferedReader((new FileReader(file)));
